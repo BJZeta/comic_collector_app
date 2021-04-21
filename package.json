@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "a MERN Stack app that allows users to collect and store comics in a digital database.",
   "main": "server.js",
+  "type": "module",
   "scripts": {
-    "start": "node backend/server.js",
+    "start": "node backend/server",
     "server": "nodemon backend/server",
     "client": "npm start --prefix frontend"
   },
